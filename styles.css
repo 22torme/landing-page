@@ -148,14 +148,42 @@ a{
 .section4{
     background-color:white;
     padding:20px;
+    display:flex;
 }
 .section4 .box{
     background-color:#4c8bf5;
+    flex:1;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px 64px;
+    margin: 64px 128px;
+    border-radius:20px;
+    display:flex;
+}
 
+
+.section4 .box h3{
+    color:white;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.section4 button{
+    background-color:#4c8bf5;
+    padding: 12px 24px;
+    border-radius:5px;
+    font-size:16px;
+    border: 2px white solid;
+    border-radius:10px;
+    color:white;
+    font-weight: bold;
 }
 
 footer{
     background-color: #1f2937;
-    color: white;
+    color: lightgrey;
     padding: 20px;
+    text-align: center;
 }
